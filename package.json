@@ -1,0 +1,47 @@
+{
+  "name": "pollutioncalculator",
+  "version": "0.1.0",
+  "description": "pollution calculator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "js": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luqimin/pollutionCalculator.git"
+  },
+  "keywords": [
+    "pollution",
+    "calculator"
+  ],
+  "author": "luqimin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luqimin/pollutionCalculator/issues"
+  },
+  "homepage": "https://github.com/luqimin/pollutionCalculator#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-import": "^1.6.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.8",
+    "electron": "1.7.10",
+    "eslint": "^4.15.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-react": "^7.5.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "antd": "^3.1.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
